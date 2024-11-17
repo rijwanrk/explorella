@@ -96,29 +96,3 @@ textarea {
 select {
   @apply form-select rounded text-sm resize-none;
 }
-
-.typing-container {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 8s steps(30, end) infinite, blink 0.6s step-end infinite;
-  border-right: 2px solid black; /* Cursor effect */
-}
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0; /* Loops back seamlessly */
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color:green;
-  }
-}
