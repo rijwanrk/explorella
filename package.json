@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "22.9.0"
+    "node": "20.x"
   },
   "name": "travello-clone",
   "version": "0.1.0",
