@@ -39,11 +39,17 @@
 
 // module.exports = nextConfig;
 
-const isProd = process.env.NODE_ENV === "production";
-const prodDomain = "https://explorella.onrender.com";
 
-const nextConfig = {
+
+// next.config.js
+
+module.exports = {
   reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_BASE_URL: process.env.NODE_ENV === 'production' 
+      ? 'https://explorella.onrender.com' 
+      : 'http://localhost:3000',
+  },
   images: {
     remotePatterns: [
       {
@@ -58,37 +64,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
-      ...(isProd
-        ? [
-            {
-              protocol: "https",
-              hostname: "explorella.onrender.com",
-              port: "",
-              pathname: "/**",
-            },
-          ]
-        : []),
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "3000",
+        pathname: "/**",
+      },
     ],
   },
-  async headers() {
-    return [
-      {
-        source: "/api/:path*",
-        headers: [
-          { key: "Access-Control-Allow-Credentials", value: "true" },
-          {
-            key: "Access-Control-Allow-Origin",
-            value: isProd ? prodDomain : "*",
-          },
-          {
-            key: "Access-Control-Allow-Methods",
-            value: "GET, PATCH, POST, OPTIONS",
-          },
-        ],
-      },
-    ];
-  },
 };
-
-module.exports = nextConfig;
-
