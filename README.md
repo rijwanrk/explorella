@@ -129,8 +129,8 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="YOUR_STRIPE_SECRET_KEY"
 
 # Author
 
-- Developer - [Hasibul Islam](www.linkedin.com/in/rizwan-khan-640417247)
-- Designer - [MD Saiful Islam ](linkedin.com/in/sachin-bamniya-869a81248) `dedicate to`
+- Developer - [Rizwan khan](www.linkedin.com/in/rizwan-khan-640417247)
+- Designer - [Sachin bamniya ](linkedin.com/in/sachin-bamniya-869a81248) `dedicate to`
 
 
 
