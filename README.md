@@ -1,6 +1,6 @@
-Full Video on YouTube [CodeCraftMERN](https://youtu.be/lUIinWktJW8?si=LWi3QSpC0f-r-FAX)
 
-# Travello
+
+# WanderLust
 
 > Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more.
 
@@ -124,16 +124,13 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="YOUR_STRIPE_SECRET_KEY"
 
 # Important Links
 
-- [x] Live Link - [Click Here](https://travello-template.vercel.app)
+- [x] Live Link - [Click Here](https://explorella-cgd5-git-main-rizwan-khans-projects-d5e05696.vercel.app/)
 - [x] Design Link - [Click Here](https://www.figma.com/file/U0BQwI1VapmtMMTXAFgabB/Travel?node-id=151%3A91&mode=dev)
 
 # Author
 
-- Developer - [Hasibul Islam](https://www.linkedin.com/in/devhasibulislam/)
-- Designer - [MD Saiful Islam ](https://www.linkedin.com/in/md-saiful-islam-361959220/) `dedicate to`
+- Developer - [Hasibul Islam](www.linkedin.com/in/rizwan-khan-640417247)
+- Designer - [MD Saiful Islam ](linkedin.com/in/sachin-bamniya-869a81248) `dedicate to`
 
-# `find it useful` then `buy me a coffee` 😜😜😜
 
-<a href="https://www.buymeacoffee.com/devhasibulislam" target="_blank">
-    <img src="./buy-me-a-coffee.png" alt="devhasibulislam - buy me a coffee" alt="linkedin logo" style="max-widh: 100%; border-radius: 10px;"  />
-</a>
+
